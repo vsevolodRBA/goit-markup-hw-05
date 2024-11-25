@@ -333,7 +333,11 @@ img {
 .firstlast-con {
     margin-right: 120px;
 }
-
+.thirdlast-con {
+    margin-left: 80px;
+    display: inline-flex;
+    max-width: 453px;
+}
 
 .wrapper-icon-footer {
     gap: 16px;
@@ -407,4 +411,53 @@ img {
 }
 .im-list:hover .paragraph {
     transform: translateY(0%);
+}
+.form-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-input {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #2E2F42;
+    margin-top: 16px;
+}
+.s-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    border: none;
+    display: inline-flex;
+    margin-left: 24px;
+    margin-top: 40px;
+    
+}
+
+.s-button:hover,
+.s-button:focus {
+    background-color: #404BBF;
+}
+.f-icon {
+    fill: #FFFFFF;
+    margin-left: 16px;
+    position: absolute;
 }
