@@ -460,20 +460,63 @@
 
     <div class="backdrop is-open">
       <div class="modal">
+        <button type="button" class="close-btn">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
         <div class="form-field">
-          <label class="form-label" for="input-name">Field Name</label>
-          <div class="input-wrapper">
+          <div class="namecon">
+            <label class="modal-label" for="input-name">Name</label>
             <input
-              class="form-input"
+              class="modal-input"
+              name="input-name"
+              id="input-name"
+              type="text"
+            />
+            <svg class="form-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+          <div class="telcon">
+            <label class="modal-label" for="input-name">Phone</label>
+            <input
+              class="modal-input"
               name="input-name"
               id="input-name"
               type="text"
             />
             <svg class="form-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-person"></use>
+              <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
+          <div class="mailcon">
+            <label class="modal-label" for="input-name">Email</label>
+            <input
+              class="modal-input"
+              name="input-name"
+              id="input-name"
+              type="text"
+            />
+            <svg class="form-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+          <div class="commcon">
+            <label class="modal-label" for="input-name">Comment</label>
+            <textarea
+              class="modal-input"
+              name="input-name"
+              id="input-name"
+              type="text"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </div>
         </div>
+        <p></p>
+        <button type="button" class="modal-button">Send</button>
       </div>
     </div>
   </body>

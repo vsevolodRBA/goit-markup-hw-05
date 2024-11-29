@@ -495,3 +495,67 @@ img {
 .backdrop:not(.is-open) .modal {
    transform: translate(-50%, -50%) scale(1.5);
 }
+.close-btn {
+    position: absolute;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    top: 24px;
+    right: 24px;
+    background-color: #E7E9FC;
+}
+.close-icon {
+    fill: #2E2F42;
+}
+.modal-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    margin-top: 72px;
+    margin-bottom: 16px;
+}
+.modal-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+
+}
+.modal-input {
+    border: 1px solid #2E2F42;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+.modal-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-left: 119px;
+    margin-bottom: 24px;
+}
+.form-field {
+    margin-left: 24px;
+}
