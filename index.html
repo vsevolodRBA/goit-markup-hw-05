@@ -468,11 +468,11 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <div class="form-field">
           <div class="namecon">
-            <label class="modal-label" for="input-name">Name</label>
+            <label class="modal-label" for="user-name">Name</label>
             <input
               class="modal-input"
               name="input-name"
-              id="input-name"
+              id="user-name"
               type="text"
             />
             <svg class="form-icon" width="18" height="18">
@@ -480,42 +480,53 @@
             </svg>
           </div>
           <div class="telcon">
-            <label class="modal-label" for="input-name">Phone</label>
+            <label class="modal-label" for="user-phone">Phone</label>
             <input
               class="modal-input"
               name="input-name"
-              id="input-name"
-              type="text"
+              id="user-phone"
+              type="tel"
             />
             <svg class="form-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
           <div class="mailcon">
-            <label class="modal-label" for="input-name">Email</label>
+            <label class="modal-label" for="user-email">Email</label>
             <input
               class="modal-input"
               name="input-name"
-              id="input-name"
-              type="text"
+              id="user-email"
+              type="email"
             />
             <svg class="form-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
           <div class="commcon">
-            <label class="modal-label" for="input-name">Comment</label>
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
-              class="modal-input"
+              class="modal-input text-int"
               name="input-name"
-              id="input-name"
+              id="user-comment"
               type="text"
               rows="5"
               placeholder="Text input"
             ></textarea>
           </div>
         </div>
-        <p></p>
+        <div class="checkcon">
+          <input
+            type="checkbox"
+            class="check-input"
+            name="input-name"
+            id="check"
+          />
+          <label class="check-label" for="check">
+            I accept the terms and conditions of the
+            <a href="" class="check-link">Privacy Policy</a>
+          </label>
+        </div>
         <button type="button" class="modal-button">Send</button>
       </div>
     </div>

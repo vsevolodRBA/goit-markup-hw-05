@@ -536,6 +536,7 @@ img {
     width: 360px;
     height: 40px;
     margin-bottom: 8px;
+    padding-left: 38px;
 }
 .modal-button {
     font-weight: 500;
@@ -558,4 +559,49 @@ img {
 }
 .form-field {
     margin-left: 24px;
+}
+.namecon,
+.telcon,
+.mailcon,
+.commcon {
+    position: relative;
+}
+.form-icon {
+    position: absolute;
+    top: 26px;
+    left: 16px;
+}
+
+.modal-input:focus {
+    border: 1px solid #4D5AE5;
+    fill: #4D5AE5;
+}
+.text-int {
+    height: 120px;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+textarea {
+    resize: none;
+    color: #2E2F42;
+}
+.checkcon {
+    width: 360px;
+    height: 16px;
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.check-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+.check-link {
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4D5AE5;
 }
