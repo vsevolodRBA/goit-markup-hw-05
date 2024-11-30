@@ -581,16 +581,12 @@ img {
     margin-left: 119px;
     margin-bottom: 24px;
 }
-.namecon {
+.modal-wrapper {
     margin-bottom: 8px;
-}
-
-.namecon,
-.telcon,
-.mailcon,
-.commcon {
     position: relative;
 }
+
+
 .form-icon {
     position: absolute;
     top: 26px;
