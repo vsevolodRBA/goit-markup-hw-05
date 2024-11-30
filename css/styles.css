@@ -569,6 +569,7 @@ img {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-button {
     font-weight: 500;
     font-size: 16px;
@@ -579,7 +580,7 @@ img {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border-radius: 4px;
     padding: 16px 32px;
@@ -587,6 +588,8 @@ img {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     margin-left: 119px;
     margin-bottom: 24px;
+    display: block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-wrapper {
     margin-bottom: 8px;
@@ -600,8 +603,11 @@ img {
     left: 16px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2E2F42;
 }
-
+.modal-input:focus .form-icon {
+    fill: #4D5AE5;
+}
 .modal-input:focus {
     border: 1px solid #4D5AE5;
     fill: #4D5AE5;
