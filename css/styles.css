@@ -581,9 +581,10 @@ img {
     margin-left: 119px;
     margin-bottom: 24px;
 }
-.form-field {
-    margin-left: 24px;
+.namecon {
+    margin-bottom: 8px;
 }
+
 .namecon,
 .telcon,
 .mailcon,
